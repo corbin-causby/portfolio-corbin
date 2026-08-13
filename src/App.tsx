@@ -5,15 +5,18 @@ function App() {
 
   return (
     <>
+      <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      </head>
+
         <header className="header">
           <h1>Hey! My name is Corbin Causby.</h1>
           <h2>I'm a software engineer and I love to build things.</h2>
         </header>
         <main>
             <section className="contact">
-            <p>Email: corbincausby@gmail.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/corbin-causby/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/corbin-causby/</a></p>
-            <p>GitHub: <a href="https://github.com/corbin-causby" target="_blank" rel="noopener noreferrer">https://github.com/corbincausby</a></p>
+            <p><a href="https://www.linkedin.com/in/corbin-causby-82646220b/" target="_blank" aria-label="Visit myLinkedIn"><i className="fa fa-linkedin"></i></a></p>
+            <p><a href="https://github.com/corbin-causby" target="_blank" aria-label="Visit my GitHub"><i className="fa fa-github"></i></a></p>
           </section>
           <section className="about-me">
             <h2>About Me</h2>

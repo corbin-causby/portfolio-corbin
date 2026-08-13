@@ -1,7 +1,10 @@
 #root {
-  width: 1126px;
+  width: 768px;
   max-width: 100%;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 75px auto;
+  margin-right: 75px auto;
   text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
