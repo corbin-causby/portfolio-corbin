@@ -35,3 +35,50 @@ export const projects = [
     link: "https://github.com/corbin-causby"
   }
 ];
+
+export const skills = [
+  {
+    id: 0,
+    skill: "HTML"
+  },
+  {
+    id: 1,
+    skill: "CSS"
+  },
+    {
+    id: 2,
+    skill: "TypeScript"
+  },
+  {
+    id: 3,
+    skill: "JavaScript"
+  },
+    {
+    id: 4,
+    skill: "React"
+  },
+  {
+    id: 5,
+    skill: "React Router"
+  },
+    {
+    id: 6,
+    skill: "C#"
+  },
+  {
+    id: 7,
+    skill: ".NET Entity Framework"
+  },
+    {
+    id: 8,
+    skill: "ASP.NET"
+  },
+  {
+    id: 9,
+    skill: "RESTful API Design"
+  },
+      {
+    id: 10,
+    skill: "GitHub"
+  },
+]
